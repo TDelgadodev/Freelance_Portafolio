@@ -1,109 +1,151 @@
-.home__main__section__banner{
-    background-color: var(--colorVerde);
-    padding: 45px 10px 60px;
+.home__main__section__banner {
+  background-color: var(--colorVerde);
+  padding: 45px 10px 60px;
 }
 
-.home__main__section__banner figure{
-    text-align: center;
+.home__main__section__banner figure {
+  text-align: center;
 }
 
-.home__main__section__banner h1{
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 35px;
-    font-family: var(--tipografiaTitulos);
-    font-weight: 800;
-    line-height: 37px;
-    margin: 25px 0;
+.home__main__section__banner h1 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 35px;
+  font-family: var(--tipografiaTitulos);
+  font-weight: 800;
+  line-height: 37px;
+  margin: 25px 0;
 }
 
-.home__main__section__sticker{
+.home__main__section__sticker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 30px 0;
+}
+
+.home__main__section__sticker hr {
+  width: 100px;
+  height: 4px;
+  background-color: #fff;
+  border: none;
+}
+
+.home__main__section__sticker h4 {
+  color: #fff;
+  font-size: 22px;
+}
+.home__main__section__description {
+  color: #fff;
+  text-align: center;
+}
+.home__main__section__portafolio {
+  padding: 60px 10px;
+}
+
+.home__main__section__portafolio .home__main__section__sticker hr {
+  background-color: var(--colorAzul);
+}
+
+.home__main__section__portafolio .home__main__section__sticker h4 {
+  color: var(--colorAzul);
+}
+
+.home__main__section__portafolio__images {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.home__main__section__portafolio__images img {
+  width: 100%;
+}
+
+.home__main__section__about {
+  background-color: var(--colorVerde);
+  padding: 60px 10px;
+}
+
+.home__main__section__about a {
+  color: #fff;
+  border: 1px #fff solid;
+  border-radius: 5px;
+  padding: 15px;
+  display: block;
+  width: 200px;
+  margin: 20px auto 0px;
+  text-align: center;
+}
+
+.home__main__section__about .general__subtitle {
+  color: #fff;
+  font-weight: 700;
+  font-size: 28px;
+  margin: 10px 5px;
+}
+
+.home__main__section__article p {
+  line-height: 24px;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.home__main__section__contact .home__main__section__sticker hr {
+  background-color: var(--colorAzul);
+}
+
+.home__main__section__contact .home__main__section__sticker h4 {
+  color: var(--colorAzul);
+}
+
+.home__main__section__contact {
+  color: var(--colorAzul);
+  padding: 60px 10px;
+}
+
+@media (min-width: 768px) {
+  .home__main__section__description {
+    display: none;
+  }
+  .home__main__section__portafolio__images {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin: 30px 0;
-}
-
-.home__main__section__sticker hr{
-    width: 100px;
-    height: 4px;
-    background-color: #fff;
-    border: none;
-}
-
-.home__main__section__sticker h4{
-    color: #fff;
-    font-size: 22px;
-}
-.home__main__section__description{
-    color: #fff;
-    text-align: center;
-}
-.home__main__section__portafolio{
-    padding: 60px 10px;
-}
-
-.home__main__section__portafolio .home__main__section__sticker hr{
-background-color: var(--colorAzul);
-}
-
-.home__main__section__portafolio .home__main__section__sticker h4{
-    color: var(--colorAzul);
-}
-
-.home__main__section__portafolio__images{
+    gap: 15px;
+  }
+  .home__main__section__portafolio__images figure {
+    width: 45%;
+  }
+  .home__main__section__article {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.home__main__section__portafolio__images img{
-    width: 100%;
-}
-
-.home__main__section__about{
-    background-color: var(--colorVerde);
-    padding: 60px 10px;
-}
-
-.home__main__section__about a{
-    color: #fff;
-    border: 1px #fff solid;
-    border-radius: 5px;
-    padding: 15px;
-    display: block;
-    width: 200px;
-    margin: 20px auto 0px;
-    text-align: center ;
-}
-
-.home__main__section__about .general__subtitle{
-    color: #fff;
-    font-weight: 700;
-    font-size: 28px;
-    margin: 10px 5px;
-}
-
-.home__main__section__article p{
-    line-height: 24px;
-    color: #fff;
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-
-.home__main__section__contact .home__main__section__sticker hr{
-    background-color: var(--colorAzul);
-    }
-    
-    .home__main__section__contact .home__main__section__sticker h4{
-        color: var(--colorAzul);
-    }
-
-.home__main__section__contact{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .home__main__section__article p {
+    width: 80%;
+  }
+  .home__main__section__contact {
     color: var(--colorAzul);
-    padding: 60px 10px;
+    padding: 60px 30px;
+  }
 }
 
+@media (min-width: 1024px) {
+  .home__main__section__portafolio__images figure {
+    width: 25%;
+  }
+  .home__main__section__article {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .home__main__section__article p{
+    width: 40%;
+  }
+  .home__main__section__contact {
+    padding: 60px 60px;
+}
+}

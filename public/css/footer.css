@@ -44,3 +44,15 @@
   background-color: #1a252f;
   text-align: center;
 }
+
+@media (min-width:768px) {
+  .footer__section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 55px;
+  }
+  .footer__section__article{
+    width: 30%;
+  }
+}

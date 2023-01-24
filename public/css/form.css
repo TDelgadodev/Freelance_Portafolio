@@ -1,0 +1,21 @@
+.form__box{
+    margin-bottom: 20px;
+    color: var(--colorAzul);
+    font-size: 20px;
+}
+
+.form-input, .form__box textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid silver;
+    margin-top: 10px;
+}
+.form__box--flex button{
+    padding: 20px 30px;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 18px;
+}
+.form__box--files{
+
+}

@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css" />
     <script
       src="https://kit.fontawesome.com/50fa450a40.js"
       crossorigin="anonymous"
@@ -14,7 +15,7 @@
   <body class="home">
     <header class="header">
       <a href=""><h3>Freelance Portafolio</h3></a>
-      <button class="hamburger__menu">
+      <button class="buttons__green">
         menu <i class="fa-solid fa-bars"></i>
       </button>
       <nav class="header__nav">
@@ -31,121 +32,126 @@
         </ul>
       </nav>
     </header>
-    <section class="home__main__section__banner">
-      <figure>
-        <img src="/images/profile.png" alt="" />
-      </figure>
-      <h1>Freelance portafolio</h1>
-      <div class="home__main__section__banner__sticker">
-        <hr />
-        <h3><i class="fa-solid fa-star"></i></h3>
-        <hr />
-      </div>
-      <div>
-        <p>Web developer - Graphic Artist - User Experience Designer</p>
-      </div>
-    </section>
-    <section class="home__main__section__portafolio" id="portafolio">
-      <h2 class="general__subtitle">portafolio</h2>
-      <div class="home__main__section__sticker">
-        <hr />
-        <h4><i class="fa-solid fa-star"></i></h4>
-        <hr />
-      </div>
-      <div class="home__main__section__portafolio__images">
+    <main class="home__main">
+      <section class="home__main__section__banner">
         <figure>
-          <img src="/images/cabin.png" alt="" />
+          <img src="/images/profile.png" alt="" />
         </figure>
-        <figure>
-          <img src="/images/cake.png" alt="" />
-        </figure>
-        <figure>
-          <img src="/images/circus.png" alt="" />
-        </figure>
-        <figure>
-          <img src="/images/game.png" alt="" />
-        </figure>
-        <figure>
-          <img src="/images/safe.png" alt="" />
-        </figure>
-        <figure>
-          <img src="/images/submarine.png" alt="" />
-        </figure>
-      </div>
-    </section>
-    <section class="home__main__section__about" id="about">
-      <h2 class="general__subtitle">about</h2>
-      <div class="home__main__section__sticker">
-        <hr />
-        <h4><i class="fa-solid fa-star"></i></h4>
-        <hr />
-      </div>
-      <article class="home__main__section__article">
-        <p>
-          Freelance is a free landing page theme created for free use. The
-          download includes the complete source files including HTML, CSS, and
-          JavaScript as weel as optional SASS stylesheets for easy customization
-        </p>
-        <p>
-          Whether you're a student looking to showcase your work, a professional
-          looking to attact clients, or a graphic artist looking to share your
-          projects, this template is the perferct starting point!
-        </p>
-      </article>
-      <a href=""><i class="fa-solid fa-download"></i>Download Now!</a>
-    </section>
-    <section class="home__main__section__contact" id="contact">
-      <h2 class="general__subtitle">contact me</h2>
-      <div class="home__main__section__sticker">
-        <hr />
-        <h4><i class="fa-solid fa-star"></i></h4>
-        <hr />
-      </div>
-      <form action="" method="">
-        <div class="form__box">
-          <label for="name">Name</label>
-          <input
-            class="form-input"
-            type="text"
-            autocomplete="off"
-            id="name"
-            name="name"
-          />
+        <h1>Freelance portafolio</h1>
+        <div class="home__main__section__sticker">
+          <hr />
+          <h4><i class="fa-solid fa-star"></i></h4>
+          <hr />
         </div>
-        <div class="form__box">
-          <label for="email">Email Address</label>
-          <input
-            class="form-input"
-            type="email"
-            autocomplete="off"
-            id="email"
-            name="email"
-          />
+        <div class="home__main__section__description">
+          <p>Web developer - Graphic Artist - User Experience Designer</p>
         </div>
-        <div class="form__box">
-          <label for="phone">Phone Number</label>
-          <input
-            class="form-input"
-            type="tel"
-            autocomplete="off"
-            id="phone"
-            name="phone"
-          />
+      </section>
+      <section class="home__main__section__portafolio" id="portafolio">
+        <h2 class="general__subtitle">portafolio</h2>
+        <div class="home__main__section__sticker">
+          <hr />
+          <h4><i class="fa-solid fa-star"></i></h4>
+          <hr />
         </div>
-        <div class="form__box">
-          <label for="message">Message</label>
-          <textarea
-            class="form-textarea"
-            name=""
-            id="message"
-            rows="10"
-          ></textarea>
+        <div class="home__main__section__portafolio__images">
+          <figure>
+            <img src="/images/cabin.png" alt="" />
+          </figure>
+          <figure>
+            <img src="/images/cake.png" alt="" />
+          </figure>
+          <figure>
+            <img src="/images/circus.png" alt="" />
+          </figure>
+          <figure>
+            <img src="/images/game.png" alt="" />
+          </figure>
+          <figure>
+            <img src="/images/safe.png" alt="" />
+          </figure>
+          <figure>
+            <img src="/images/submarine.png" alt="" />
+          </figure>
         </div>
-        <div class="form__box--flex">
-          <button class="buttons__green" type="submit">Send</button>
+      </section>
+      <section class="home__main__section__about" id="about">
+        <h2 class="general__subtitle">about</h2>
+        <div class="home__main__section__sticker">
+          <hr />
+          <h4><i class="fa-solid fa-star"></i></h4>
+          <hr />
         </div>
-      </form>
-    </section>
+        <article class="home__main__section__article">
+          <p>
+            Freelance is a free landing page theme created for free use. The
+            download includes the complete source files including HTML, CSS, and
+            JavaScript as weel as optional SASS stylesheets for easy
+            customization
+          </p>
+          <p>
+            Whether you're a student looking to showcase your work, a
+            professional looking to attact clients, or a graphic artist looking
+            to share your projects, this template is the perferct starting
+            point!
+          </p>
+        </article>
+        <a href=""><i class="fa-solid fa-download"></i>Download Now!</a>
+      </section>
+      <section class="home__main__section__contact" id="contact">
+        <h2 class="general__subtitle">contact me</h2>
+        <div class="home__main__section__sticker">
+          <hr />
+          <h4><i class="fa-solid fa-star"></i></h4>
+          <hr />
+        </div>
+        <form action="" method="">
+          <div class="form__box">
+            <label for="name">Name</label>
+            <input
+              class="form-input"
+              type="text"
+              autocomplete="off"
+              id="name"
+              name="name"
+            />
+          </div>
+          <div class="form__box">
+            <label for="email">Email Address</label>
+            <input
+              class="form-input"
+              type="email"
+              autocomplete="off"
+              id="email"
+              name="email"
+            />
+          </div>
+          <div class="form__box">
+            <label for="phone">Phone Number</label>
+            <input
+              class="form-input"
+              type="tel"
+              autocomplete="off"
+              id="phone"
+              name="phone"
+            />
+          </div>
+          <div class="form__box">
+            <label for="message">Message</label>
+            <textarea
+              class="form-textarea"
+              name="message"
+              id="message"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="form__box--flex">
+            <button class="buttons__green" type="submit">Send</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
     <footer class="footer">
       <section class="footer__section">
         <article class="footer__section__article">
@@ -175,5 +181,9 @@
         <p>Copyright<i class="fa fa-copyright"></i> Your Website 2022</p>
       </section>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

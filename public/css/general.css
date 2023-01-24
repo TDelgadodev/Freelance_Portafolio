@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: var( --tipografiaParrafo);
+}
+
+a{
+    text-decoration: none;
+}
+
+ol, ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+textarea{
+    resize: none;
+}
+.general__subtitle{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--tipografiaTitulos);
+    color: var(--colorAzul);
+}

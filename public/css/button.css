@@ -1,0 +1,9 @@
+.buttons__green{
+    background-color: var(--colorVerde);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 9px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
